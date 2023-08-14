@@ -1,0 +1,12 @@
+{
+    "firstName": "Kai",
+    "surname": "Paterson-Hall",
+    "description": "Full-time student with passion for web development",
+    "descriptiveWords": ["Coder", "Programmer", "Developer", "Bro"],
+    "aboutMe": "I am a self-taught Web Developer with a Masters degree in Business Administration. I've always found coding intuitive and have pushed myself to learn the most effective ways to achieve a result. I'm eager to learn and can quickly integrate into a team so I can provide value to the company and the customers.",
+    "socialUrls": {
+        "linkedin": "https://www.linkedin.com/in/tansel-bayraktaroglu-28082a96/",
+        "github": "https://github.com/tanselbay1",
+        "email": "mailto:tanselbay1@hotmail.com"
+    }
+}

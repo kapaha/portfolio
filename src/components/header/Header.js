@@ -5,6 +5,7 @@ import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 
 import { motion } from 'framer-motion';
+import owner from '../../data/owner.json';
 import useWindowSize from '../../hooks/useWindowSize';
 import NavMenu from './NavMenu';
 
@@ -60,9 +61,9 @@ export function Header() {
         <header id="home">
             <div ref={headerContainer} className="header__container">
                 <h2 className="logo">
-                    TANSEL{' '}
+                    {owner.firstName}{' '}
                     <span ref={logoSurname} className="surname">
-                        BAYRAKTAROGLU
+                        {owner.surname}
                     </span>
                 </h2>
                 <nav className="nav">

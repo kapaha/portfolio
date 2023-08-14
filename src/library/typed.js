@@ -1,7 +1,8 @@
 import Typed from 'typed.js';
+import owner from '../data/owner.json';
 
 export const TYPED_HERO_OPTIONS = Object.freeze({
-    strings: ['Coder', 'Programmer', 'Developer'],
+    strings: owner.descriptiveWords,
     startDelay: 300,
     typeSpeed: 150,
     backSpeed: 100,

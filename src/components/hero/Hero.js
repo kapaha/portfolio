@@ -5,6 +5,7 @@ import {
     TYPED_HERO_OPTIONS,
 } from '../../library/typed';
 import Socials from './Socials';
+import owner from '../../data/owner.json';
 
 export function Hero() {
     const typedElement = useRef(null);
@@ -22,14 +23,9 @@ export function Hero() {
     return (
         <div className="hero-container">
             <h1 className="title">
-                Hi, I'm a{' '}
-                <span ref={typedElement} className="animated-text">
-                    Coder
-                </span>
+                Hi, I'm a <span ref={typedElement} className="animated-text" />
             </h1>
-            <h2 className="sub-title">
-                Full-time student with passion for web development
-            </h2>
+            <h2 className="sub-title">{owner.description}</h2>
             <div className="btn-group">
                 <a href="#about" className="btn btn-red-border">
                     About me

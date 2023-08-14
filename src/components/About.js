@@ -1,5 +1,6 @@
 import SectionHeader from './UI/SectionHeader';
 import personImage from '../assets/images/person.svg';
+import owner from '../data/owner.json';
 
 export function About() {
     return (
@@ -11,15 +12,7 @@ export function About() {
                             <SectionHeader title="About" span="Me" />
                         </div>
                     </div>
-                    <p className="lead">
-                        I am a self-taught Web Developer with a Masters degree
-                        in Business Administration. I've always found coding
-                        intuitive and have pushed myself to learn the most
-                        effective ways to achieve a result.
-                        <br />
-                        I'm eager to learn and can quickly integrate into a team
-                        so I can provide value to the company and the customers.
-                    </p>
+                    <p className="lead">{owner.aboutMe}</p>
                 </div>
                 <div className="img-container">
                     <img

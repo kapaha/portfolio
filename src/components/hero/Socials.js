@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
+import owner from '../../data/owner.json';
 
 function Social({ icon, className, targetLink, socialName }) {
     return (
@@ -25,19 +26,19 @@ export default function Socials() {
                 icon="radix-icons:linkedin-logo"
                 className="social__linkedin"
                 socialName="Linkedin"
-                targetLink="https://www.linkedin.com/in/tansel-bayraktaroglu-28082a96/"
+                targetLink={owner.socialUrls.linkedin}
             />
             <Social
                 icon="jam:github"
                 className="social__github"
                 socialName="Github"
-                targetLink="https://github.com/tanselbay1"
+                targetLink={owner.socialUrls.github}
             />
             <Social
                 icon="material-symbols:mail-outline-rounded"
                 className="social__mail"
                 socialName="Email"
-                targetLink="mailto:tanselbay1@hotmail.com"
+                targetLink={owner.socialUrls.email}
             />
         </ul>
     );

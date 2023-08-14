@@ -1,0 +1,20 @@
+{
+    "languages": [
+        { "title": "Javascript", "icon": "logos:javascript" },
+        { "title": "Html", "icon": "vscode-icons:file-type-html" },
+        { "title": "Css", "icon": "vscode-icons:file-type-css" }
+    ],
+
+    "librariesFrameworks": [
+        { "title": "React", "icon": "vscode-icons:file-type-reactjs" },
+        { "title": "Sass", "icon": "vscode-icons:file-type-sass" },
+        { "title": "Framer-Motion", "icon": "ph:framer-logo-duotone" }
+    ],
+
+    "technologies": [
+        { "title": "Git", "icon": "mdi:git" },
+        { "title": "Webpack", "icon": "logos:webpack" },
+        { "title": "Netlify", "icon": "vscode-icons:file-type-netlify" },
+        { "title": "Trello", "icon": "logos:trello" }
+    ]
+}

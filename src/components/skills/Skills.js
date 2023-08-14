@@ -1,3 +1,4 @@
+import skills from '../../data/skills.json';
 import SectionHeader from '../UI/SectionHeader';
 import Skill from './Skill';
 
@@ -6,25 +7,6 @@ const languagesIcon = 'mingcute:code-fill';
 
 const librariesFrameworksIcon = 'fa-solid:book-reader';
 const technologiesIcon = 'mdi:tools';
-
-const languages = [
-    { title: 'Javascript', icon: 'logos:javascript' },
-    { title: 'Html', icon: 'vscode-icons:file-type-html' },
-    { title: 'Css', icon: 'vscode-icons:file-type-css' },
-];
-
-const librariesFrameworks = [
-    { title: 'React', icon: 'vscode-icons:file-type-reactjs' },
-    { title: 'Sass', icon: 'vscode-icons:file-type-sass' },
-    { title: 'Framer-Motion', icon: 'ph:framer-logo-duotone' },
-];
-
-const technologies = [
-    { title: 'Git', icon: 'mdi:git' },
-    { title: 'Webpack', icon: 'logos:webpack' },
-    { title: 'Netlify', icon: 'vscode-icons:file-type-netlify' },
-    { title: 'Trello', icon: 'logos:trello' },
-];
 
 export default function Skills() {
     return (
@@ -37,17 +19,17 @@ export default function Skills() {
                     <Skill
                         header="Languages"
                         headerIcon={languagesIcon}
-                        items={languages}
+                        items={skills.languages}
                     />
                     <Skill
                         header="Libraries/Frameworks"
                         headerIcon={librariesFrameworksIcon}
-                        items={librariesFrameworks}
+                        items={skills.librariesFrameworks}
                     />
                     <Skill
                         header="Technologies"
                         headerIcon={technologiesIcon}
-                        items={technologies}
+                        items={skills.technologies}
                     />
                 </div>
             </div>
