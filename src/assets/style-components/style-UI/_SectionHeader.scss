@@ -19,6 +19,7 @@
             color: var(--red);
         }
     }
+
     h2::after {
         content: '';
         position: absolute;
@@ -40,5 +41,12 @@
         h2::after {
             width: 40%;
         }
+    }
+}
+
+.about-container,
+#projects {
+    h2 {
+        color: white;
     }
 }
