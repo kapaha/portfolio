@@ -2,19 +2,24 @@
     "languages": [
         { "title": "Javascript", "icon": "logos:javascript" },
         { "title": "Html", "icon": "vscode-icons:file-type-html" },
-        { "title": "Css", "icon": "vscode-icons:file-type-css" }
+        { "title": "Css", "icon": "vscode-icons:file-type-css" },
+        { "title": "C#", "icon": "vscode-icons:file-type-csharp" },
+        { "title": "SQL", "icon": "vscode-icons:file-type-sql" }
     ],
 
     "librariesFrameworks": [
+        { "title": "Nuxt", "icon": "vscode-icons:file-type-nuxt" },
+        { "title": "Vue", "icon": "vscode-icons:file-type-vue" },
         { "title": "React", "icon": "vscode-icons:file-type-reactjs" },
-        { "title": "Sass", "icon": "vscode-icons:file-type-sass" },
-        { "title": "Framer-Motion", "icon": "ph:framer-logo-duotone" }
+        { "title": "Tailwind", "icon": "vscode-icons:file-type-tailwind" },
+        { "title": ".Net", "icon": "logos:dotnet" }
     ],
 
     "technologies": [
         { "title": "Git", "icon": "mdi:git" },
         { "title": "Webpack", "icon": "logos:webpack" },
-        { "title": "Netlify", "icon": "vscode-icons:file-type-netlify" },
+        { "title": "Vim", "icon": "logos:vim" },
+        { "title": "Postman", "icon": "vscode-icons:file-type-postman" },
         { "title": "Trello", "icon": "logos:trello" }
     ]
 }
