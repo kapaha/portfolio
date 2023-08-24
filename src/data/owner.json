@@ -1,12 +1,12 @@
 {
     "firstName": "Kai",
     "surname": "Paterson-Hall",
-    "description": "Full-time student with passion for web development",
-    "descriptiveWords": ["Coder", "Programmer", "Developer", "Bro"],
-    "aboutMe": "I am a self-taught Web Developer with a Masters degree in Business Administration. I've always found coding intuitive and have pushed myself to learn the most effective ways to achieve a result. I'm eager to learn and can quickly integrate into a team so I can provide value to the company and the customers.",
+    "description": "Frontend Developer, Skilled in JavaScript, Vue, Nuxt, CSS and Problem Solving.",
+    "descriptiveWords": ["Coder", "Programmer", "Developer"],
+    "aboutMe": "Greetings! I'm Kai, a passionate web developer actively exploring new job opportunities. With a diverse range of projects under my belt, I have honed my skills in HTML5, CSS3, JavaScript, Vue, Nuxt, C#, and SQL. I thrive on transforming creative ideas into functional and visually appealing web applications.",
     "socialUrls": {
-        "linkedin": "https://www.linkedin.com/in/tansel-bayraktaroglu-28082a96/",
-        "github": "https://github.com/tanselbay1",
-        "email": "mailto:tanselbay1@hotmail.com"
+        "linkedin": "https://www.linkedin.com/in/kaipatersonhall/",
+        "github": "https://github.com/kapaha",
+        "email": "mailto:kaizwebdesign@gmail.com"
     }
 }
