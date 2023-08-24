@@ -1,76 +1,82 @@
 [
     {
-        "id": "1",
-        "title": "TODO App",
-        "description": "A classic todo app with a dark/light theme implementation",
-        "build-date": "December 2022",
-        "image": "/todo-screenshot.jpg",
-        "made-with": [
-            "html",
-            "css",
-            "javascript",
-            "scss",
-            "react",
-            "framer-motion"
+        "title": "Shopping Cart",
+        "description": "A shopping site that showcases the flow of adding and removing items from the cart",
+        "build-date": "June 2022",
+        "image": "shopping-cart.webp",
+        "madeWithIcons": [
+            { "title": "React", "icon": "vscode-icons:file-type-reactjs" },
+            { "title": "React Router", "icon": "devicon:reactrouter" },
+            {
+                "title": "styled-components",
+                "icon": "vscode-icons:file-type-styled"
+            }
         ],
-        "demo": "https://visionary-taffy-699c5d.netlify.app",
-        "code": "https://github.com/tanselbay1/todo-app"
+        "demo": "https://kapaha.github.io/shopping-cart/",
+        "code": "https://github.com/kapaha/shopping-cart"
     },
     {
-        "id": "2",
+        "title": "Memory Card Game",
+        "description": "A fun game that tests your memory",
+        "build-date": "February 2022",
+        "image": "",
+        "madeWithIcons": [
+            { "title": "React", "icon": "vscode-icons:file-type-reactjs" },
+            { "title": "CSS", "icon": "vscode-icons:file-type-css" }
+        ],
+        "demo": "https://kapaha.github.io/memory-card-game/",
+        "code": "https://github.com/kapaha/memory-card-game"
+    },
+    {
         "title": "Math Castle",
-        "description": "An educational castle defence game",
+        "description": "An educational castle defence game made for The Odin Project's Game Jam. (Group Project)",
         "build-date": "August 2021",
-        "image": "/math-castle-demo.gif",
-        "made-with": ["html", "css", "javascript"],
+        "image": "math-castle-demo.gif",
+        "madeWithIcons": [
+            { "title": "JavaScript", "icon": "logos:javascript" },
+            { "title": "HTML", "icon": "vscode-icons:file-type-html" },
+            { "title": "CSS", "icon": "vscode-icons:file-type-css" }
+        ],
         "demo": "https://kapaha.github.io/math-castle/",
         "code": "https://github.com/kapaha/math-castle"
     },
     {
-        "id": "3",
-        "title": "Tip Calculator",
-        "description": "An app for calculating tip with a simple UI",
-        "build-date": "November 2022",
-        "image": "/tip-calculator-screenshot.jpeg",
-        "made-with": ["html", "css", "javascript", "scss", "react"],
-        "demo": "https://lucky-duckanoo-88319d.netlify.app",
-        "code": "https://github.com/tanselbay1/tip-calculator-app"
-    },
-    {
-        "id": "4",
-        "title": "Product Preview Card",
-        "description": "Example product preview card with mobile and desktop design",
-        "build-date": "October 2022",
-        "image": "/product-preview-card-screenshot.png",
-        "made-with": ["html", "css", "javascript", "scss", "react"],
-        "demo": "https://deft-daifuku-a40f8c.netlify.app",
-        "code": "https://github.com/tanselbay1/product-preview-card-component"
-    },
-    {
-        "id": "5",
-        "title": "Find Your Hat",
-        "description": "Terminal game build with only Javascript",
-        "build-date": "June 2022",
-        "image": "/find-your-hat-screenshot.png",
-        "made-with": ["javascript"],
-        "demo": "https://github.com/tanselbay1/findYourHat",
-        "code": "https://github.com/tanselbay1/findYourHat"
-    },
-    {
-        "id": "6",
-        "title": "Portfolio",
-        "description": "Mobile first and dark theme functionality Portfolio Website",
-        "build-date": "December 2022",
-        "image": "/portfolio-screenshot.png",
-        "made-with": [
-            "html",
-            "css",
-            "javascript",
-            "scss",
-            "react",
-            "framer-motion"
+        "title": "Weather App",
+        "description": "A weather API-using app that displays the current weather and a 7-day forecast",
+        "build-date": "May 2021",
+        "image": "",
+        "madeWithIcons": [
+            { "title": "JavaScript", "icon": "logos:javascript" },
+            { "title": "HTML", "icon": "vscode-icons:file-type-html" },
+            { "title": "CSS", "icon": "vscode-icons:file-type-css" }
         ],
-        "demo": "https://quiet-fox-495562.netlify.app",
-        "code": "https://github.com/tanselbay1/portfolio"
+        "demo": "https://kapaha.github.io/weather-app/",
+        "code": "https://github.com/kapaha/weather-app"
+    },
+    {
+        "title": "Todo List",
+        "description": "Create multiple lists to keep track of your tasks",
+        "build-date": "March 2021",
+        "image": "",
+        "madeWithIcons": [
+            { "title": "JavaScript", "icon": "logos:javascript" },
+            { "title": "HTML", "icon": "vscode-icons:file-type-html" },
+            { "title": "CSS", "icon": "vscode-icons:file-type-css" }
+        ],
+        "demo": "https://kapaha.github.io/todo-list/",
+        "code": "https://github.com/kapaha/todo-list"
+    },
+    {
+        "title": "Tic-Tac-Toe",
+        "description": "Play the classic tic-tac-toe game against another player locally or against varying AI difficulties",
+        "build-date": "October 2020",
+        "image": "",
+        "madeWithIcons": [
+            { "title": "JavaScript", "icon": "logos:javascript" },
+            { "title": "HTML", "icon": "vscode-icons:file-type-html" },
+            { "title": "CSS", "icon": "vscode-icons:file-type-css" }
+        ],
+        "demo": "https://kapaha.github.io/tic-tac-toe/",
+        "code": "https://github.com/kapaha/tic-tac-toe"
     }
 ]

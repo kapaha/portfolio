@@ -12,12 +12,12 @@ export default function Projects() {
                 <div className="projects-wrapper">
                     {projects.map((project) => (
                         <Project
-                            key={project.id}
+                            key={project.title}
                             title={project.title}
                             description={project.description}
                             buildDate={project['build-date']}
                             imageSource={project.image}
-                            madeWith={project['made-with']}
+                            madeWithIcons={project.madeWithIcons}
                             demo={project.demo}
                             code={project.code}
                         />

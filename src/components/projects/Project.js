@@ -7,7 +7,7 @@ export default function Project({
     description,
     buildDate,
     imageSource,
-    madeWith,
+    madeWithIcons,
     demo,
     code,
 }) {
@@ -16,7 +16,7 @@ export default function Project({
             <div
                 className="project-img"
                 style={{
-                    backgroundImage: `url(images/${imageSource})`,
+                    backgroundImage: `url('${process.env.PUBLIC_URL}/${imageSource}')`,
                 }}
             />
             <div className="project-text">
@@ -24,7 +24,7 @@ export default function Project({
                 <p className="description">{description}</p>
                 <div className="made-width">
                     <p>Made With:</p>
-                    <MadeWith techList={madeWith} />
+                    <MadeWith techList={madeWithIcons} />
                 </div>
                 <p className="build-date">{buildDate}</p>
             </div>
