@@ -3,6 +3,7 @@ import Skills from './components/skills/Skills';
 import './assets/styles.scss';
 import { Header, Hero, About } from './components';
 import Projects from './components/projects/Projects';
+import './styles/index.css';
 
 function App() {
     return (
