@@ -20,6 +20,6 @@
         { "title": "Webpack", "icon": "logos:webpack" },
         { "title": "Vim", "icon": "logos:vim" },
         { "title": "Postman", "icon": "vscode-icons:file-type-postman" },
-        { "title": "Trello", "icon": "logos:trello" }
+        { "title": "Figma", "icon": "logos:figma" }
     ]
 }
