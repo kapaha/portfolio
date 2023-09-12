@@ -1,27 +1,22 @@
-import SectionHeader from './UI/SectionHeader';
+import Section from 'components/UI/Section';
 import personImage from '../assets/images/person.svg';
 import owner from '../data/owner.json';
 
 export function About() {
     return (
-        <section id="about" className="about-container">
-            <div className="container">
-                <div className="text">
-                    <div className="title-container">
-                        <div className="header">
-                            <SectionHeader title="About" span="Me" />
-                        </div>
-                    </div>
-                    <p className="lead">{owner.aboutMe}</p>
-                </div>
-                <div className="img-container">
+        <div className="bg-[var(--dark-blue)]">
+            <div className="container flex flex-col max-w-screen-xl p-4 mx-auto md:[&>*]:basis-1/2 md:flex-row md:justify-between">
+                <Section name="about" headerTitle="About" headerSpan="Me" dark>
+                    <p className="text-white">{owner.aboutMe}</p>
+                </Section>
+
+                <div className="max-w-[300px] w-3/4 mx-auto">
                     <img
-                        className="personImage"
                         src={personImage}
                         alt="A cartoon of a person sitting at there desk, looking at a laptop"
                     />
                 </div>
             </div>
-        </section>
+        </div>
     );
 }

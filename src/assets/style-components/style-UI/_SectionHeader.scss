@@ -1,37 +1,35 @@
 @use '../mixins' as *;
 @use '../variables' as *;
 
-.header {
-    h2 {
-        font-size: 2rem;
-        position: relative;
-        color: var(--text-color);
-        text-transform: capitalize;
-        letter-spacing: 2px;
+.section-header__title {
+    font-size: 2rem;
+    position: relative;
+    color: var(--text-color);
+    text-transform: capitalize;
+    letter-spacing: 2px;
 
-        @include medium {
-            font-size: 2.5rem;
-        }
-
-        span.coloured {
-            color: var(--red);
-        }
+    @include medium {
+        font-size: 2.5rem;
     }
 
-    h2::after {
-        content: '';
-        position: absolute;
-        margin-left: 1rem;
-        top: 50%;
-        width: 20%;
-        height: 3.5px;
-        background: var(--red);
-
-        @include medium {
-            width: 23%;
-        }
+    span.coloured {
+        color: var(--red);
     }
 }
+
+// .section-header__title::after {
+//     content: '';
+//     position: absolute;
+//     margin-left: 1rem;
+//     top: 50%;
+//     width: 20%;
+//     height: 3.5px;
+//     background: var(--red);
+
+//     @include medium {
+//         width: 23%;
+//     }
+// }
 
 // about-section switch flex-direction, therefore h2::after needed to be consistent with other section headers
 .about-container {

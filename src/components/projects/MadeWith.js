@@ -7,5 +7,5 @@ export default function MadeWith({ techList }) {
         </li>
     ));
 
-    return <ul className="icons">{iconList}</ul>;
+    return <ul className="flex gap-1">{iconList}</ul>;
 }

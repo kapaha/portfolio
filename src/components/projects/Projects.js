@@ -1,29 +1,24 @@
-import SectionHeader from '../UI/SectionHeader';
+import Section from 'components/UI/Section';
 import Project from './Project';
 import projects from '../../data/projects.json';
 
 export default function Projects() {
     return (
-        <section id="projects">
-            <div className="container">
-                <div className="header">
-                    <SectionHeader title="My" span="Projects" />
-                </div>
-                <div className="projects-wrapper">
-                    {projects.map((project) => (
-                        <Project
-                            key={project.title}
-                            title={project.title}
-                            description={project.description}
-                            buildDate={project['build-date']}
-                            imageSource={project.image}
-                            madeWithIcons={project.madeWithIcons}
-                            demo={project.demo}
-                            code={project.code}
-                        />
-                    ))}
-                </div>
+        <Section name="projects" headerTitle="My" headerSpan="Projects" dark>
+            <div className="flex flex-row flex-wrap gap-8 justify-evenly">
+                {projects.map((project) => (
+                    <Project
+                        key={project.title}
+                        title={project.title}
+                        description={project.description}
+                        buildDate={project['build-date']}
+                        imageSource={project.image}
+                        madeWithIcons={project.madeWithIcons}
+                        demo={project.demo}
+                        code={project.code}
+                    />
+                ))}
             </div>
-        </section>
+        </Section>
     );
 }
