@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://kapaha.github.io/portfolio",
+    "homepage": "https://kapaha.github.io",
     "dependencies": {
         "@iconify/react": "^4.0.1",
         "@react-md/icon": "^5.1.3",
